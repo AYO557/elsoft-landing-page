@@ -1,5 +1,5 @@
 
-import { Path,HomeDetailsProp } from "./types";
+import { Path,HomeDetailsProp,ContactProp } from "./types";
 
 
 const paths: Path[] = [
@@ -21,6 +21,23 @@ const HomeDetails: HomeDetailsProp[] = [
   { Heading: "Data Engineering & Analytics", body: "Transform raw data into actionable insights with cutting-edge analytics" },
 ];
 
+const contact:ContactProp[] = [
+  {
+    img: "icons8-online-support-100.png",
+    type: "call us Any Time",
+    details: "+(234) 000 000 0000",
+  },
+  {
+    img: "icons8-urgent-message-100.png",
+    type: "Email Address",
+    details: "info@elsoft.com",
+  },
+  {
+    img: "icons8-address-100.png",
+    type: "Office Address",
+    details: "12th Street, Kilimanjaro, Nigeria",
+  },
+];
 
 
-export { paths,HomeDetails };
+export { paths,HomeDetails,contact };
