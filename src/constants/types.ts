@@ -9,4 +9,10 @@ interface HomeDetailsProp {
   body:string
 }
 
-export type { Path,HomeDetailsProp };
+interface ContactProp{
+  img:string
+  details:string
+  type:string
+}
+
+export type { Path,HomeDetailsProp,ContactProp };
