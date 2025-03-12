@@ -9,7 +9,7 @@ function NavBar() {
       <DesktopMenu />
 
       <div className="sm:flex gap-5 items-center hidden">
-        <button className="bg-[#1d1d70] text-white px-4 py-2 rounded-md">
+        <button className="border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition-all duration-300 cursor-pointer px-4 py-2 rounded-md font-bold">
           Contact Us
         </button>
 
