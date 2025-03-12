@@ -18,8 +18,8 @@ const Consultancy = () => {
         </div>
         <div className="flex flex-col gap-2  mt-14">
           <div className="h-28 w-48 rounded-2xl bg-amber-400"></div>
-        <div className="h-40 w-44 rounded-2xl  bg-blue-300 flex items-center justify-center px-5 flex-col">
-          <h3 className="font-bold px-1 text-2xl">10k+</h3>
+        <div className="h-40 w-44 rounded-2xl  bg-blue-300 flex items-center justify-center px-2 text-center flex-col">
+          <h3 className="font-bold px-1 text-4xl">10k+</h3>
           <p>projects delivered globally</p>
         </div>
       </div></div>
