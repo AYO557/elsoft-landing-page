@@ -4,4 +4,9 @@ interface Path {
   icon?: boolean;
 }
 
-export type { Path };
+interface HomeDetailsProp {
+  Heading:string
+  body:string
+}
+
+export type { Path,HomeDetailsProp };

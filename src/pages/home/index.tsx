@@ -1,5 +1,7 @@
 import hero_image from "@/assets/images/generated_hero.jpg";
 import Button from "../../components/basic/button";
+import HomeDetailSection from "./details";
+import Consultancy from "./consultancy";
 
 const Home = () => {
   return (
@@ -23,6 +25,9 @@ const Home = () => {
           <Button label="Contact Us" />
         </div>
       </article>
+      <HomeDetailSection/>
+      <Consultancy/>
+      
     </main>
   );
 };
