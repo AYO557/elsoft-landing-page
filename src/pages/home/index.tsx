@@ -11,7 +11,8 @@ const Home = () => {
       <HomeDetailSection />
 
       <Consultancy />
-      <Appointment/>
+
+      <Appointment />
     </main>
   );
 };

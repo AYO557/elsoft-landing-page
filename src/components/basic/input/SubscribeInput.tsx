@@ -2,7 +2,7 @@ import { Mail } from "lucide-react";
 
 function SubscribeInput() {
   return (
-    <div className="flex gap-2 items-center justify-between p-1 pl-4  w-[400px] bg-[rgba(255,255,255,0.4)] rounded-4xl">
+    <div className="flex gap-2 items-center justify-between p-1 pl-4 bg-[rgba(255,255,255,0.4)] rounded-4xl">
       <div className="flex items-center gap-2">
         <Mail size={20} color="white" />
         <input
